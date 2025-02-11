@@ -8,9 +8,6 @@
 ├── 📂 api/                           # API 라우트 정의
 │   ├── db.py                      # DB 연결 설정
 │   └── huggingface.py             # HuggingFace 연결 설정
-├── 📂 datasets/                      # 학습에 필요한 데이터셋 (csv 파일 또는 Recbole 데이터 파일))
-├── 📂 log_tensorboard/               # Tensorboard 로그
-├── 📂 output/                        # 모델 저장 위치
 ├── 📂 config/
 │   ├── config.yaml                # 기본 설정 파일
 │   ├── {model_name}.yaml          # Recbole 모델별 설정 파일
