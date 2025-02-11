@@ -61,15 +61,15 @@
 
 .project-location {
   display: flex;
-  align-items: center; /* 세로 정렬 */
-  gap: 5px; /* 아이콘과 텍스트 간격 조절 */
+  align-items: center;
+  gap: 5px;
   font-size: 16px;
   color: #555;
 }
 
 .project-location i {
-  font-size: 18px; /* 아이콘 크기 조절 */
-  color: darkgrey; /* 아이콘 색상 */
+  font-size: 18px;
+  color: darkgrey;
   margin-left: 3px;
 }
 

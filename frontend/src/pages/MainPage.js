@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
+
+import "../style/colors.css";
+
 import photo from "../assets/main_page.png";
 import logo from "../assets/main_logo.png";
+
 import "../style/MainPage.css";
-import "../style/colors.css";
 
 const MainPage = () => {
   const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/filter`;

@@ -38,8 +38,8 @@
 
 .filter-group-left {
   display: flex;
-  gap: 10px; /* 필터 간 간격 */
-  flex-grow: 1; /* 왼쪽 필터 그룹이 가능한 공간을 차지 */
+  gap: 10px;
+  flex-grow: 1;
 }
 
 .filter-group-right {

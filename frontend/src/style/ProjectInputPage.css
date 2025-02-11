@@ -12,7 +12,7 @@
 
 @media (max-width: 1200px) {
   .chat-page {
-    width: 95%; /* 화면이 넓을 때 80% 너비로 설정 */
+    width: 95%;
   }
 }
 

@@ -5,24 +5,26 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
+
 import Layout from "../components/Layout";
+
+import AppliedProjectPage from "./AppliedProjectPage";
+import CompanyMyPage from "./CompanyMyPage";
+import FinishedProjectPage from "./FinishedProjectPage";
+import FreelancerDetailPage from "./FreelancerDetailPage";
 import LoginPage from "./LoginPage";
-import SignUpSelectPage from "./SignUpSelectPage";
-import SignUpFreelancerPage from "./SignUpFreelancerPage";
-import SignUpCompanyPage from "./SignUpCompanyPage";
 import MainPage from "./MainPage";
-import ScrollToTop from "../components/ScrollToTop";
-import SearchProjectPage from "./SearchProjectPage";
-import SearchFreelancerPage from "./SearchFreelancerPage";
-import RecommendFreelancerPage from "./RecommendFreelancerPage";
+import ProjectDetailPage from "./ProjectDetailPage";
 import ProjectInputPage from "./ProjectInputPage";
 import ProjectRegisterPage from "./ProjectRegisterPage";
+import RecommendFreelancerPage from "./RecommendFreelancerPage";
 import RegisteredProjectsPage from "./RegisteredProjectsPage";
-import FreelancerDetailPage from "./FreelancerDetailPage";
-import AppliedProjectPage from "./AppliedProjectPage";
-import FinishedProjectPage from "./FinishedProjectPage";
-import CompanyMyPage from "./CompanyMyPage";
-import ProjectDetailPage from "./ProjectDetailPage";
+import ScrollToTop from "../components/ScrollToTop";
+import SearchFreelancerPage from "./SearchFreelancerPage";
+import SearchProjectPage from "./SearchProjectPage";
+import SignUpCompanyPage from "./SignUpCompanyPage";
+import SignUpFreelancerPage from "./SignUpFreelancerPage";
+import SignUpSelectPage from "./SignUpSelectPage";
 
 const AppRouter = () => {
   // 로그인 정보 상태(state) 저장

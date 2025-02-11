@@ -1,8 +1,10 @@
 import React from "react";
+
 import InfoCard from "./InfoCard";
 import ProjectSkillTag from "./ProjectSkillTag";
-import SingleStarRating from "./SingleStarRating";
 import RadarChart from "./RadarChart";
+import SingleStarRating from "./SingleStarRating";
+
 import "../style/FinishedProjectInfo.css";
 
 const formatDate = (dateNumber) => {

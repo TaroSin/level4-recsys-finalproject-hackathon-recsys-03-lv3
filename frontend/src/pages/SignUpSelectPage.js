@@ -1,8 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import PersonIcon from "@mui/icons-material/Person";
+
 import BusinessIcon from "@mui/icons-material/Business";
+import PersonIcon from "@mui/icons-material/Person";
+
 import logo from "../assets/logo_primary.png";
+
 import "../style/SignUpPage.css";
 
 const SignUpSelectPage = () => {

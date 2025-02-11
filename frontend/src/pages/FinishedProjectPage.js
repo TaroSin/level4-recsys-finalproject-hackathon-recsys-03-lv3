@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Box, Modal } from "@mui/material";
 import axios from "axios";
-import SwitchButton from "../components/SwitchButton";
-import SingleSelector from "../components/SingleSelector";
-import FinishedProjectInfo from "../components/FinishedProjectInfo";
+
 import Loading from "../components/Loading";
+import SingleSelector from "../components/SingleSelector";
+import SwitchButton from "../components/SwitchButton";
+
+import FinishedProjectInfo from "../components/FinishedProjectInfo";
 import ProjectFeedback from "./ProjectFeedback";
+
 import "../style/FinishedProjectPage.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/mymony/completed-project`;

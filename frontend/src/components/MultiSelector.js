@@ -4,8 +4,8 @@ import "../style/Selectors.css";
 const MultiSelector = ({ title, options, value = [], onChange }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedValues, setSelectedValues] = useState(value || []);
-  const [searchTerm, setSearchTerm] = useState(""); // 검색어 상태
-  const [filteredOptions, setFilteredOptions] = useState(options); // 필터링된 옵션
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredOptions, setFilteredOptions] = useState(options);
 
   // 외부에서 value가 변경되면 내부 상태를 업데이트
   useEffect(() => {

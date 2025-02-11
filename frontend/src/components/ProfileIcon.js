@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Images.css";
+
 import photo_0 from "../assets/profile_0.png";
 import photo_1 from "../assets/profile_1.png";
 import photo_2 from "../assets/profile_2.png";
@@ -10,6 +10,8 @@ import photo_6 from "../assets/profile_6.png";
 import photo_7 from "../assets/profile_7.png";
 import photo_8 from "../assets/profile_8.png";
 import photo_9 from "../assets/profile_9.png";
+
+import "../style/Images.css";
 
 const profileImages = [
   photo_0,

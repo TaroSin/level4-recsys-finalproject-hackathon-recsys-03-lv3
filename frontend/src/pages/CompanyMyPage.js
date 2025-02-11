@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import InfoCard from "../components/InfoCard";
-import ProfileIcon from "../components/ProfileIcon.js";
-import Loading from "../components/Loading";
-import "../style/CompanyMyPage.css";
+
 import "../style/colors.css";
+
+import InfoCard from "../components/InfoCard";
+import Loading from "../components/Loading";
+import ProfileIcon from "../components/ProfileIcon.js";
+
+import "../style/CompanyMyPage.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/mymony`;
 const companyId = sessionStorage.getItem("userId");

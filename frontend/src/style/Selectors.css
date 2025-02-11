@@ -19,9 +19,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 12px;
-  min-width: 120px; /* 최소 너비 */
-  width: auto; /* 자동 너비 조정 */
-  max-width: max-content; /* 내용에 따라 너비 조정 */
+  min-width: 120px;
+  width: auto;
+  max-width: max-content;
   border: 1px solid var(--color-secondary);
   border-radius: 4px;
   cursor: pointer;
@@ -106,21 +106,21 @@
 
 /* 스크롤 바 */
 .scrollable {
-  max-height: 200px; /* 스크롤바 높이 제한 */
-  overflow-y: auto; /* 스크롤바 활성화 */
+  max-height: 200px;
+  overflow-y: auto;
 }
 
 /* "전체" 스타일 */
 .전체-option {
-  color: var(--color-chat); /* 기본 텍스트 색상 */
+  color: var(--color-chat);
   font-weight: normal;
-  background-color: transparent; /* 파란 배경 제거 */
+  background-color: transparent;
   cursor: pointer;
 }
 
 .전체-option.selected {
   color: var(--color-chat);
-  background-color: transparent; /* 선택 상태에서도 파란 배경 제거 */
+  background-color: transparent;
 }
 
 .divider {

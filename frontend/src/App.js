@@ -32,7 +32,7 @@ const MainAppContent = () => {
     const checkTokenExpiration = () => {
       const expiresAt = sessionStorage.getItem("expiresAt");
       const token = sessionStorage.getItem("token");
-    
+
       if (expiresAt && new Date().getTime() > expiresAt && token) {
         alert("세션이 만료되었습니다. 다시 로그인하세요.");
         handleLogout();
@@ -46,7 +46,6 @@ const MainAppContent = () => {
     fetch("/")
       .then((response) => response.json())
       .then((data) => setMessage(data.message));
-    //.catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   useEffect(() => {
@@ -61,7 +60,6 @@ const MainAppContent = () => {
         setSkillList(JSON.stringify(skillRes.data));
         setCategoryList(JSON.stringify(categoryRes.data));
         setLocationList(JSON.stringify(locationRes.data));
-
       } catch (error) {
         console.error("필터 불러오기 실패: ", error);
       }

@@ -1,7 +1,8 @@
 import React from "react";
-import Topbar from "./Topbar";
-import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
+
+import Footer from "./Footer";
+import Topbar from "./Topbar";
 
 const Layout = ({ isLoggedIn, setIsLoggedIn }) => {
   return (
@@ -10,13 +11,13 @@ const Layout = ({ isLoggedIn, setIsLoggedIn }) => {
       style={{
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh", // 화면 전체 높이를 보장
+        minHeight: "100vh",
       }}
     >
       <div
         id="content-wrapper"
         style={{
-          flex: 1, // 콘텐츠 영역이 남은 공간을 차지
+          flex: 1,
           display: "flex",
           flexDirection: "column",
         }}

@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
+import Loading from "../components/Loading";
+import MultiSelector from "../components/MultiSelector";
 import ProjectInfo from "../components/ProjectInfo";
 import SingleSelector from "../components/SingleSelector";
-import MultiSelector from "../components/MultiSelector";
 import SwitchButton from "../components/SwitchButton";
-import Loading from "../components/Loading";
+
 import "../style/SearchPages.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/project`;

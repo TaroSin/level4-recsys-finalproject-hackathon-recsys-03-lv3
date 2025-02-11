@@ -27,10 +27,10 @@
 }
 
 .title-section {
-  display: flex; /* Flexbox로 설정 */
-  align-items: center; /* 세로 가운데 정렬 */
-  justify-content: space-between; /* 자식 요소 간에 여유 공간을 설정 */
-  gap: 10px; /* 요소 간 간격 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 /* 평가 UI */
@@ -74,7 +74,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border-left: 2px solid #ddd; */
   min-width: 35%;
   height: 300px;
   text-align: center;
@@ -130,7 +129,7 @@
   font-size: 16px;
   font-style: italic;
   text-align: start;
-  line-height: 1.6; /* 줄 간격 추가 */
+  line-height: 1.6;
   word-wrap: break-word;
   white-space: normal;
   overflow-wrap: break-word;

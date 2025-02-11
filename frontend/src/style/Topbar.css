@@ -83,10 +83,10 @@
 }
 
 .custom-dropdown-item i {
-  font-size: 14px; /* 아이콘 크기 */
-  width: 20px; /* 아이콘이 정렬되도록 고정된 너비 */
+  font-size: 14px;
+  width: 20px;
   text-align: center;
-  color: var(--color-secondary); /* 기존 text-gray-400과 유사한 색상 */
+  color: var(--color-secondary);
 }
 
 @media (max-width: 1200px) {

@@ -1,16 +1,14 @@
 import React, { useRef, useEffect } from "react";
+import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
+
+import "../style/colors.css";
+
 import InfoCard from "./InfoCard";
+import ProfileIcon from "./ProfileIcon";
 import ProjectKeywordIcon from "./ProjectKeywordIcon";
 import ProjectSkillTag from "./ProjectSkillTag";
-import ProfileIcon from "./ProfileIcon";
-import {
-  Chart,
-  ArcElement, // Arc 요소 등록
-  Tooltip,
-  Legend,
-} from "chart.js";
+
 import "../style/ProjectInfo.css";
-import "../style/colors.css";
 
 Chart.register(ArcElement, Tooltip, Legend);
 

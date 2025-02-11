@@ -1,14 +1,14 @@
 .logo-image {
-  width: 30px; /* 너비 */
-  height: 42px; /* 높이 */
-  transform: rotate(15deg); /* 15도 회전 */
-  transition: transform 0.3s; /* 부드러운 회전 효과 */
+  width: 30px;
+  height: 42px;
+  transform: rotate(15deg);
+  transition: transform 0.3s;
 }
 
 .profile-image {
-  width: 150px; /* 너비 */
-  height: 150px; /* 높이 */
-  transition: transform 0.3s; /* 부드러운 회전 효과 */
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s;
 }
 
 .loading-container {

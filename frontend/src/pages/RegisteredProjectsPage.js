@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import ProjectInfo from "../components/ProjectInfo";
+
 import Loading from "../components/Loading";
+import ProjectInfo from "../components/ProjectInfo";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/mymony/prestart-project`;
 

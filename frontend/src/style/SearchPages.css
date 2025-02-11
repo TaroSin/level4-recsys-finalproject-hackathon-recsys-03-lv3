@@ -15,8 +15,8 @@
 .header-container,
 .filters {
   width: 100%;
-  max-width: 1000px; /* 모든 요소 동일 폭 */
-  margin: 0 auto; /* 중앙 정렬 */
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .header-container {
@@ -28,14 +28,14 @@
 }
 
 .registered-project-container .header-container {
-  display: flex; /* 플렉스 컨테이너로 설정 */
-  justify-content: space-between; /* 양쪽 끝으로 정렬 */
-  align-items: center; /* 세로 가운데 정렬 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-right {
   display: flex;
-  justify-content: flex-end; /* 버튼을 오른쪽 끝에 배치 */
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -52,7 +52,7 @@
 
 .filters,
 .register-header {
-  display: flex; /* 자식 요소들을 가로로 배치 */
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -63,8 +63,8 @@
 .filter-group-left,
 .register-left {
   display: flex;
-  gap: 10px; /* 필터 간 간격 */
-  flex-grow: 1; /* 왼쪽 필터 그룹이 가능한 공간을 차지 */
+  gap: 10px;
+  flex-grow: 1;
 }
 
 .filter-group-right,
@@ -91,7 +91,7 @@
 }
 
 .filters > * {
-  flex-shrink: 0; /* 자식 요소가 줄어들지 않도록 설정 */
+  flex-shrink: 0;
 }
 
 .freelancers .info-card {

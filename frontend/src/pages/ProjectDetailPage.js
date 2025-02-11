@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
-import SimilarProject from "../components/SimilarProject";
-import ProjectSkillTag from "../components/ProjectSkillTag";
-import ProjectKeywordIcon from "../components/ProjectKeywordIcon";
+
 import Loading from "../components/Loading";
+import ProjectKeywordIcon from "../components/ProjectKeywordIcon";
+import ProjectSkillTag from "../components/ProjectSkillTag";
+import SimilarProject from "../components/SimilarProject";
+
 import "../style/ProjectDetail.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/project`;

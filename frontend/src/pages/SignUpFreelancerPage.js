@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import logo from "../assets/logo_primary.png";
-import SingleSelector from "../components/SingleSelector";
+
 import MultiSelector from "../components/MultiSelector";
+import SingleSelector from "../components/SingleSelector";
+
+import logo from "../assets/logo_primary.png";
+
 import "../style/SignUpPage.css";
 
 const SignUpFreelancer = () => {

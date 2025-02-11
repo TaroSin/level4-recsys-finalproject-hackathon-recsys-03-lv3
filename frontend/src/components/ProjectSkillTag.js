@@ -1,6 +1,6 @@
 import React from "react";
-import "../style/SkillTag.css";
 import "../style/colors.css";
+import "../style/SkillTag.css";
 
 const SkillIcon = ({ text }) => {
   return (

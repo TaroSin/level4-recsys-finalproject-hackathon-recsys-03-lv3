@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import "../style/ProjectRegisterPage.css";
-import SimilarProject from "../components/SimilarProject";
-import ProjectSkillTag from "../components/ProjectSkillTag";
-import botphoto from "../assets/chat_logo.png";
 import axios from "axios";
+
+import ProjectSkillTag from "../components/ProjectSkillTag";
+import SimilarProject from "../components/SimilarProject";
+
+import botphoto from "../assets/chat_logo.png";
+
+import "../style/ProjectRegisterPage.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/mymony/project/register`;
 

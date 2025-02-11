@@ -1,6 +1,6 @@
 @import "colors.css";
 
-/* ✅ 팝업 모달 전체 스타일 */
+/* 팝업 모달 전체 스타일 */
 .feedback-modal {
   position: fixed;
   top: 50%;
@@ -8,15 +8,15 @@
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 1150px;
-  max-height: 90vh; /* 화면보다 커지지 않도록 설정 */
-  overflow: auto; /* 내부 스크롤 가능하게 설정 */
+  max-height: 90vh;
+  overflow: auto;
   background-color: white;
   border-radius: 15px;
   padding: 30px;
   z-index: 1000;
 }
 
-/* ✅ 피드백 제목 */
+/* 피드백 제목 */
 .feedback-header-container {
   width: 100%;
   max-width: 1000px;
@@ -31,12 +31,12 @@
   margin: 20px 0;
 }
 
-/* ✅ 프로젝트 정보 (팝업 내부로 포함) */
+/* 프로젝트 정보 (팝업 내부로 포함) */
 .feedback-project-info {
   margin-bottom: 20px;
 }
 
-/* ✅ 슬라이더 + 입력란을 감싸는 InfoCard */
+/* 슬라이더 + 입력란을 감싸는 InfoCard */
 .feedback-info-card {
   display: flex;
   flex-direction: column;
@@ -46,7 +46,6 @@
   height: auto;
   padding: 20px;
   margin-top: 10px;
-  /* background-color: #f9f9f9; */
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -54,7 +53,7 @@
   width: 100%;
 }
 
-/* ✅ 슬라이더 & 입력란을 나란히 배치 */
+/* 슬라이더 & 입력란을 나란히 배치 */
 .feedback-content {
   display: flex;
   flex-direction: row;
@@ -66,7 +65,7 @@
   padding: 20px;
 }
 
-/* ✅ 슬라이더 컨테이너 (세로 정렬) */
+/* 슬라이더 컨테이너 (세로 정렬) */
 .feedback-slider-container {
   display: flex;
   flex-direction: column;
@@ -76,12 +75,12 @@
   gap: 15px;
 }
 
-/* ✅ 슬라이더 개별 박스 */
+/* 슬라이더 개별 박스 */
 .slider-box {
   margin-bottom: 15px;
 }
 
-/* ✅ 슬라이더 제목 */
+/* 슬라이더 제목 */
 .slider-label {
   color: black;
   font-size: 14px;
@@ -89,7 +88,7 @@
   margin-bottom: 5px;
 }
 
-/* ✅ 슬라이더 */
+/* 슬라이더 */
 .feedback-slider {
   width: 100%;
 }
@@ -98,13 +97,13 @@
   font-size: 12px;
   color: #666;
   margin-top: 5px;
-  word-wrap: break-word; /* 단어 단위 줄바꿈 */
-  overflow-wrap: break-word; /* 긴 단어도 줄바꿈 */
-  white-space: normal; /* 자동 줄바꿈 허용 */
-  line-height: 1.4; /* 가독성을 위한 줄 간격 */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.4;
 }
 
-/* ✅ 추가 피드백 입력란 */
+/* 추가 피드백 입력란 */
 .feedback-textarea {
   flex-grow: 1;
   display: flex;
@@ -118,7 +117,7 @@
   height: auto;
 }
 
-/* ✅ 버튼 정렬 */
+/* 버튼 정렬 */
 .feedback-buttons {
   display: flex;
   justify-content: flex-end;
@@ -126,7 +125,7 @@
   max-width: 1050px;
 }
 
-/* ✅ 취소 버튼 */
+/* 취소 버튼 */
 .cancel-button {
   display: flex;
   justify-content: flex-end;
@@ -143,7 +142,7 @@
   margin-right: 10px;
 }
 
-/* ✅ 등록 버튼 */
+/* 등록 버튼 */
 .submit-button {
   display: flex;
   justify-content: flex-end;

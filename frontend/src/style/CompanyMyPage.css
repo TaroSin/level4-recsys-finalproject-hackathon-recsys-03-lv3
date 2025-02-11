@@ -7,8 +7,8 @@
 }
 
 .profile-photo {
-  display: flex; /* Flexbox 사용 */
-  align-items: center; /* 세로 가운데 정렬 */
+  display: flex;
+  align-items: center;
   margin-left: 10px;
 }
 
@@ -59,14 +59,14 @@
 }
 
 .button-container {
-  display: flex; /* Flexbox 사용 */
-  justify-content: flex-end; /* 오른쪽 정렬 */
+  display: flex;
+  justify-content: flex-end;
   width: 1000px;
   margin: 20px auto;
 }
 
 .edit-btn {
-  background-color: var(--color-primary); /* 녹색 버튼 */
+  background-color: var(--color-primary);
   color: white;
   border: none;
   padding: 10px 30px;

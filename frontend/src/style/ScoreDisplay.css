@@ -8,7 +8,7 @@
 
 .star-icon {
   font-size: 22px;
-  color: var(--color-star); /* 별 색상 */
+  color: var(--color-star);
 }
 
 .score-value {

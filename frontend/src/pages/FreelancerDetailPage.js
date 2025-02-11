@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
-import ProfileIcon from "../components/ProfileIcon";
-import FreelancerSuggest from "../components/FreelancerSuggest";
-import RadarChart from "../components/RadarChart";
-import FreelancerSkillTag from "../components/FreelancerSkillTag";
+
 import DoughnutChart from "../components/DoughnutChart";
-import MultiStarRating from "../components/MultiStarRating";
-import SingleStarRating from "../components/SingleStarRating";
+import FreelancerSkillTag from "../components/FreelancerSkillTag";
+import FreelancerSuggest from "../components/FreelancerSuggest";
 import Loading from "../components/Loading";
+import MultiStarRating from "../components/MultiStarRating";
+import ProfileIcon from "../components/ProfileIcon";
+import RadarChart from "../components/RadarChart";
+import SingleStarRating from "../components/SingleStarRating";
+
 import "../style/FreelancerDetailPage.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/resource`;

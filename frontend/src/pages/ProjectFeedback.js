@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { TextField, Typography, Slider, Modal } from "@mui/material";
+
 import InfoCard from "../components/InfoCard";
 import ProjectInfo from "../components/ProjectInfo";
+
 import "../style/ProjectFeedback.css";
 
 const ProjectFeedback = ({ project, onClose, onSubmit }) => {

@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
+import botphoto from "../assets/chat_logo.png";
+
 import "react-datepicker/dist/react-datepicker.css";
 import "../style/ProjectInputPage.css";
-import botphoto from "../assets/chat_logo.png";
 
 const workType = ["대면", "원격"];
 const ProjectType = ["외주", "기간제"];

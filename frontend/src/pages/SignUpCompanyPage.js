@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import logo from "../assets/logo_primary.png";
+
 import SingleSelector from "../components/SingleSelector";
+
+import logo from "../assets/logo_primary.png";
+
 import "../style/SignUpPage.css";
 
 const SignUpCompany = () => {

@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/main_logo.png";
+
 import ProfileIcon from "./ProfileIcon";
+
+import logo from "../assets/main_logo.png";
+
 import "../style/Topbar.css";
 
 const Topbar = () => {

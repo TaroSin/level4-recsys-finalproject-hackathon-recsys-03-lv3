@@ -1,7 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../style/SimilarProject.css";
+
 import ProjectSkillTag from "./ProjectSkillTag";
+
+import "../style/SimilarProject.css";
 
 const SimilarProject = ({ projects }) => {
   const navigate = useNavigate();

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
-import SwitchButton from "../components/SwitchButton";
-import SingleSelector from "../components/SingleSelector";
-import ProjectInfo from "../components/ProjectInfo";
+
 import Loading from "../components/Loading";
+import ProjectInfo from "../components/ProjectInfo";
+import SingleSelector from "../components/SingleSelector";
+import SwitchButton from "../components/SwitchButton";
+
 import "../style/AppliedProjectPage.css";
 
 const API_BASE_URL = `${process.env.REACT_APP_BASE_URL}/api/mymony/applied-project`;
