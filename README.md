@@ -1,6 +1,6 @@
 <h1 align="center"><a href=’https://ginger-scion-7bd.notion.site/HRmony-170b563074a680b29360f7c273f82311?pvs=4’>HRmony</a></h1>
 
-![image](https://github.com/user-attachments/assets/eef56b60-1577-4ddd-aff1-9969e6b1d1d9)
+[![image](https://github.com/user-attachments/assets/eef56b60-1577-4ddd-aff1-9969e6b1d1d9)](https://hrmony.vercel.app/)
 
 
 >추천 시스템을 활용한 기업-프리랜서 매칭 플랫폼, HRmony
@@ -10,7 +10,7 @@
 본 서비스는 AI 기반 추천 시스템을 활용하여 기업과 프리랜서를 빠르고 정확하게 매칭하는 플랫폼입니다. 기업의 인재 탐색 비용을 절감하고, 프리랜서에게 적합한 프로젝트 기회를 제공함으로써 양측의 만족도를 극대화하는 것을 목표로 합니다.
 
 - [HRmony 체험하기](https://hrmony.vercel.app/ "HRmony")
-- [HRmony 시연 영상 보러 가기](docs/HRmony_시연_영상.mp4)
+- [HRmony 시연 영상 보러 가기](https://www.youtube.com/watch?v=JYaz8wUgork)
 <br></br>
 
 ## 📽️ 소개영상 📽️
