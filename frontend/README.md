@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## 🎯 개요
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+본 프로젝트의 `Frontend` 디렉토리는 React를 기반으로 구축된 프론트엔드 애플리케이션으로, 프리랜서와 기업 간의 매칭 프로세스를 직관적으로 제공합니다.
 
-## Available Scripts
+## 🌳 File Tree 🌳
 
-In the project directory, you can run:
+```bash
+📂 frontend/                             # Frontend 코드 (React)
+├── 📂 public/                          # 정적 파일 (HTML, Favicon 등)
+│   ├── favicon.ic                     
+│   └── index.html
+├── 📂 src/                            # React 소스 코드
+│   ├── 📂 assets/                     # 정적 이미지나 로고 등 파일 저장
+│   ├── 📂 components/                # 재사용 가능한 UI 컴포넌트
+│   │   ├── Layout.js
+│   │   ├── InfoCard.js
+│   │   ├── ProfileIcon.js
+│   │   ├── ... 
+│   │   ├── SimilarProject.js
+│   │   ├── Topbar.js
+│   │   └── WebSocketContext.js
+│   │
+│   ├── 📂 pages/                       # 라우터 경로에 따른 각 페이지 구성 컴포넌트
+│   │   ├── AppliedProjectPage.js
+│   │   ├── CompanyMyPage.js
+│   │   ├── FinishedProjectPage.js
+│   │   ├── FreelancerDetailPage.js
+│   │   ├── LoginPage.js
+│   │   ├── MainPage.js
+│   │   ├── ProjectDetailPage.js
+│   │   ├── ProjectFeedback.js
+│   │   ├── ProjectInputPage.js
+│   │   ├── ProjectRegisterPage.js
+│   │   ├── RecommendFreelancerPage.js
+│   │   ├── RegisteredProjectsPage.js
+│   │   ├── Router.js
+│   │   ├── SearchFreelancerPage.js
+│   │   ├── SearchProjectPage.js
+│   │   ├── SignUpCompanyPage.js
+│   │   ├── SignUpFreelancerPage.js
+│   │   └── SignUpSelectPage.js
+│   │
+│   ├── 📂 style/          # css 스타일 파일 저장
+│   ├── App.css            # 전역 스타일 정의 파일
+│   ├── App.js             # 애플리케이션 메인 컴포넌트
+│   ├── index.css          # 기본 스타일 정의 파일
+│   └── index.js           # React 렌더링 진입점
+│
+├── package-lock.json      # 의존성 잠금 파일 (버전 관리)
+├── package.json           # Frontend 의존성 및 스크립트 정의
+└── README.md              # Frontend 관련 설명
+```
 
-### `npm start`
+## 🚀 실행 방법
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Vercel을 통한 배포된 서비스 이용
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+본 프로젝트는 Vercel을 통해 배포되었습니다. 아래 링크에서 바로 이용할 수 있습니다.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔗 **배포된 서비스 URL**: https://hrmony.vercel.app
